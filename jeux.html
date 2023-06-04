@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="jeux_v2.css" /> 
+	</head>
+	<body>
+		<img class="fond" src=Jeu-bg.jpeg />
+
+
+		<!-- Les buttons en haut,a gauche-->
+		<button class="chapitre">CHAPITRE 1: DESERTIQUE</button>
+		<!-- <button class="chapitre2">CHAPITRE 2 : PLUIE ET LACS</button>
+		<button class="chapitre3">CHAPITRE 3: FLORE</button> -->
+		<br>
+		<button class="bouton">Bouton fabriquer habitacle de survie(coût:...)</button>
+		<br>
+		<button class="bouton1">Bouton fabriquer torche(coût:...)</button>
+		<br>
+		<button class="bouton2">FABRIQUER: FOREUSE T1</button>
+		<br>
+		<button class="bouton3">FABRIQUER: EOLIENNE</button>
+		<br>
+		<button class="bouton4">FABRIQUER:ECRAN-TERRAFORMATION</button>
+
+
+		<!-- Le button milieu-->
+		<!-- J'suis une zigoto c'est les carres qui nous aide a deplacer donc le bail de bouton la ne sert a rien--> 
+		<button id='milieu'> <nav> <ul> <il> Bouton se deplacer</button> </il></ul></nav>
+
+		<!-- Le button gauche,bas-->
+		<!--Bouton passer à la base pour reprendre oxygène si on a une bombonne-->
+		<button id="bas"> Recharge </button>
+
+		<!-- Le button gauche,bas-->
+		<!--Bouton passer à la base pour reprendre oxygène si l'habitat est construit-->
+		<button id="retour"> Retour a la base </button>
+
+		<!-- Le button manger-->
+		<button class="manger">Manges</button>
+
+		<!-- Le button boire-->
+		<button class="boire">Bois</button>
+
+		<button id="button">
+		<!-- Le coeur-->
+		<div id ="coeur"> &#9825;
+		<button class="recharge-coeur"></button>
+
+	    </div>
+
+		<!-- La goutte-->
+		<div id ="goutte"> &#127778;
+			<button class="recharge-eau"></button>
+		</div>
+
+		<!-- O2-->
+		<div class="o2"> &#927;2 
+			<button class="recharge-o2"></button>
+		</div>
+
+		<!-- Le tableau a droite, en haut-->
+		<table>
+			<tr>
+				<td>Titre 1</td>
+				<td>Titre 2</td>
+				<td>Titre 3</td>
+				<td>Titre 4</td>
+				<td>Titre 5</td>
+			</tr>
+			<tr></br></tr>
+			<tr>
+				<div id="position">
+				<td class="contenu"> Contenu</td>
+				<td class="contenu"> Contenu </td>
+				<td class="contenu"> Contenu </td>
+				<td class="contenu"> Contenu </td>
+				<td class="contenu"> Contenu</td></div>
+			</tr>
+		</table>
+
+		<!-- Les lignes sur les cotes-->
+		<div class="lignegauche"></div>
+		<div class="lignedroite"></div>
+
+		<p> Indice de terraformation </p>
+		<div class="temps" > &#8855; </div>
+		<script src="jeux.js"></script>
+	</body>
+</hmtl>
